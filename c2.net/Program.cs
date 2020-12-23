@@ -6,8 +6,15 @@ namespace c2.net
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
+            int n = 1;
+            //incrementar
+            n += 77;
+            Console.WriteLine(n);
+            //decrementar
+            n -= 3;
+            Console.WriteLine(n);
+            //dduplicar su valor
+            Console.WriteLine(n*2);
         }
     }
 }
