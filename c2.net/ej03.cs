@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace c2.net
 {
-    class Program
+    class ej03
     {
         static void Main(string[] args)
         {
