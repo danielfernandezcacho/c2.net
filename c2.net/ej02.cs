@@ -8,20 +8,20 @@ namespace c2.net
     {
         static void Main(string[] args)
         {
-            //Declara dos variables numéricas(con el valor que desees), muestra por consola la suma,
-            //resta, multiplicación, división y módulo(resto de la división).
-            int a = 7;
-            int b = 9;
+            //Escribe un programa de consola que realice lo siguiente: declarar una variable N de tipo
+            //int, una variable A de tipo double y una variable C de tipo char y asigna a cada una un valor.
 
-            //suma
-            Console.WriteLine(a + b);
-            //resta
-            Console.WriteLine(a - b);
-            //multiplicacion
-            Console.WriteLine(a * b);
-            //dividion
-            Console.WriteLine(a / b);
+            int n = 7;
+            Double a = 9;
+            char c = 'a';
 
+            Console.WriteLine("Variable N = " + n);
+            Console.WriteLine("Variable A = " + a);
+            Console.WriteLine("Variable C = " + c);
+
+            Console.WriteLine(n+a);
+            Console.WriteLine(a-n);
+            Console.WriteLine("Valor numérico del carácter " + c + " = " + (int)c);
 
             Console.ReadKey();
         }
