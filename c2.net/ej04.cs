@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace c2.net
 {
-    class Program
+    class ej04
     {
         static void Main(string[] args)
         {
@@ -14,7 +16,7 @@ namespace c2.net
             n -= 3;
             Console.WriteLine(n);
             //dduplicar su valor
-            Console.WriteLine(n*2);
+            Console.WriteLine(n * 2);
         }
     }
 }
