@@ -21,8 +21,7 @@ namespace c2.net
             Console.WriteLine(a * b);
             //dividion
             Console.WriteLine(a / b);
-            //residu
-            Console.WriteLine(a % b);
+
 
             Console.ReadKey();
         }
